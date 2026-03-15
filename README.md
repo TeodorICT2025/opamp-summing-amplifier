@@ -4,7 +4,8 @@ This project implements a **summing amplifier using an LM358 op-amp**.
 Two input signals are combined and measured with the Arduino ADC.
 
 ### Features
-- Breadboard hardware implementation  
+- Breadboard hardware implementation
+- LTSpice Schematic
 - LTSpice simulation  
 - Arduino ADC measurement  
 - Serial monitor output
@@ -35,8 +36,3 @@ Output equation:
 
 ![LTSpice](LT_spice_simulation_summing%20amplifier.png)
 
-### Files
-
-- `Summing_amplifier.ino` — Arduino measurement code  
-- `Summing_amplifier_schematic.asc` — LTSpice schematic  
-- `Serial_monitor_output.png` — measured signal
